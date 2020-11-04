@@ -15,30 +15,31 @@ img{
   width: 300px;
   height: 300px;
 }
-/* li { 
-  list-style: none;
-  text-align: center;
-  font-size: larger;
-  color: black;
-} */
-a {
-color: black;
-} 
+
 /* ul {
  
+  display: flex;
+  */
+li { 
+  list-style: none;
   text-align: center;
-} */
+
+  }
+
+a {
+color: black;
+font-size: x-large;
+} 
 
 
-h2 {
+h1 {
 text-align: center;  
 }
 h4 {
   text-align: center;
 }
-label {
-  text-align: center;
-}
+
+
 .imgpara{
   display: flex;
   justify-content: space-between;
@@ -53,9 +54,13 @@ label {
 }
 .footer-lien {
   padding: 10px;
-  color: black;
+
 }
 footer {
-  background-color: cyan;
+  background-color:rgb(30, 156, 30);
 
+}
+.formulaire {
+margin-left: 750px;
+margin-top: 90px;
 }
